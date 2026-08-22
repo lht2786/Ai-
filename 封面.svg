@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070c18"/>
+      <stop offset="0.5" stop-color="#101a2c"/>
+      <stop offset="1" stop-color="#1a2435"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fceebb"/>
+      <stop offset="0.45" stop-color="#f2c94c"/>
+      <stop offset="1" stop-color="#c98d1f"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#54d6c5" stop-opacity="0.5"/>
+      <stop offset="0.6" stop-color="#1f8f86" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f8f86" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spark" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d9fff7" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#6fe0cf" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#6fe0cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="swordglow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8ab4a6"/>
+      <stop offset="1" stop-color="#3a4a5e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="600" height="900" fill="url(#bg)"/>
+
+  <!-- 星点 -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="90" r="1.6" opacity="0.7"/>
+    <circle cx="140" cy="150" r="1.2" opacity="0.5"/>
+    <circle cx="210" cy="80" r="1.8" opacity="0.6"/>
+    <circle cx="330" cy="120" r="1.3" opacity="0.5"/>
+    <circle cx="420" cy="70" r="1.7" opacity="0.65"/>
+    <circle cx="500" cy="140" r="1.4" opacity="0.55"/>
+    <circle cx="560" cy="95" r="1.2" opacity="0.5"/>
+    <circle cx="90" cy="260" r="1.3" opacity="0.45"/>
+    <circle cx="470" cy="230" r="1.5" opacity="0.5"/>
+    <circle cx="540" cy="300" r="1.2" opacity="0.4"/>
+    <circle cx="40" cy="380" r="1.4" opacity="0.4"/>
+    <circle cx="520" cy="420" r="1.3" opacity="0.4"/>
+    <circle cx="180" cy="340" r="1.1" opacity="0.35"/>
+    <circle cx="420" cy="360" r="1.2" opacity="0.35"/>
+  </g>
+
+  <!-- 顶部小标签 -->
+  <text x="300" y="72" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="17" fill="#8b9bb0" text-anchor="middle" letter-spacing="7">玄幻 · 穿越 · 系统</text>
+
+  <!-- 书名 -->
+  <text x="300" y="205" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="66" font-weight="bold" fill="url(#gold)" text-anchor="middle">我在异界捡垃圾</text>
+
+  <!-- 副标题 -->
+  <text x="300" y="252" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="20" fill="#d8c98a" text-anchor="middle" letter-spacing="3">万界回收系统 · 混元圣体</text>
+
+  <!-- 主角身后光晕（混元圣体） -->
+  <circle cx="300" cy="430" r="215" fill="url(#aura)"/>
+
+  <!-- 主角剪影 -->
+  <g fill="#060a12">
+    <circle cx="300" cy="345" r="20"/>
+    <path d="M300 368 C272 405 258 470 252 610 L348 610 C342 470 328 405 300 368 Z"/>
+    <path d="M316 405 L372 585" stroke="#060a12" stroke-width="14" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- 远山（青云宗七峰） -->
+  <path d="M0 700 L70 645 L150 700 L235 630 L320 690 L405 625 L490 685 L560 640 L600 680 L600 900 L0 900 Z" fill="#0a111f"/>
+  <path d="M0 760 L120 720 L240 770 L360 725 L480 775 L600 735 L600 900 L0 900 Z" fill="#080d17"/>
+
+  <!-- 废料：残剑 -->
+  <g>
+    <path d="M120 692 L210 662 L217 674 L130 704 Z" fill="#2a3648"/>
+    <path d="M210 662 L223 656 L229 670 L217 674 Z" fill="url(#swordglow)"/>
+    <path d="M120 692 L116 700 L130 704 L133 696 Z" fill="#3a4a5e"/>
+  </g>
+
+  <!-- 废料：碎石 -->
+  <g fill="#232d3d">
+    <polygon points="420,702 452,694 468,708 440,716"/>
+    <polygon points="500,714 526,708 534,722 506,728"/>
+    <polygon points="90,726 118,718 130,734 100,740"/>
+  </g>
+
+  <!-- 废料：破旧卷轴 -->
+  <g>
+    <rect x="535" y="690" width="40" height="16" rx="3" fill="#2a3648" transform="rotate(-12 555 698)"/>
+    <rect x="538" y="704" width="34" height="5" rx="2" fill="#1d2534" transform="rotate(-12 555 706)"/>
+  </g>
+
+  <!-- 宝光（垃圾堆里的宝藏） -->
+  <circle cx="372" cy="590" r="28" fill="url(#spark)"/>
+  <circle cx="228" cy="666" r="18" fill="url(#spark)"/>
+  <circle cx="468" cy="704" r="14" fill="url(#spark)"/>
+  <circle cx="104" cy="722" r="11" fill="url(#spark)"/>
+
+  <!-- slogan -->
+  <text x="300" y="838" font-family="STKaiti, KaiTi, SimSun, serif" font-size="27" fill="#d8c98a" text-anchor="middle" letter-spacing="9">莫欺少年穷</text>
+
+  <!-- 底部小字 -->
+  <text x="300" y="872" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="13" fill="#5c6b80" text-anchor="middle" letter-spacing="2">一个社畜，在异界从捡垃圾开始逆袭</text>
+</svg>
