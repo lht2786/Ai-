@@ -39,4 +39,4 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 2. 直接编辑 `.md` 文件，无任何编译或验证步骤。
 3. 改完正文后同步更新 `小说大纲.md`。
 4. 提交信息用中文描述改动（如"新增第三十五章：…"）。**除非用户要求，不要主动提交**；要提交时仅提交本次相关文件。
-5. 用户说"上传"，指的是提交并推送到**码云**（`origin`，`git@gitee.com:lht2786/ai.git`）：`git push origin main`。用户说"上传远程仓库"（或"上传到 GitHub"），指的是提交并推送到 **GitHub**（`github`，`https://github.com/lht2786/Ai-`）：`git push github main`。用户说"一起上传"，指的是两个远程都推送：`git push origin main && git push github main`。两个远程目前都能连通。
+5. 用户说"上传"（或"提交""上传到 GitHub"），指的是提交并推送到 **GitHub**（`origin`，`git@github.com:lht2786/Ai-.git`）：`git push origin main`。目前只维护 GitHub 一个远程，码云（gitee）已不再使用。
