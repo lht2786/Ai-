@@ -10,7 +10,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 文件结构
 
-- 破茧混元.md —— **唯一的正文文件**
+- 拳镇神魔.md —— **唯一的正文文件**
 - 小说大纲.md —— 大纲 / 剧情源。含：分卷章节大纲、未解决伏笔、润色注意事项。
 - CLAUDE.md（本文件）—— **设定源**。含：核心设定（世界、修炼体系、丹药、金手指、功法）、主要人物速查表。
 
